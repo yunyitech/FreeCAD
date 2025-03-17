@@ -1,0 +1,1344 @@
+The system is: Linux - 6.10.14-linuxkit - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/app/freecad-build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/app/freecad-build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b2b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b2b1.dir/build.make CMakeFiles/cmTC_8b2b1.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2b1.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8b2b1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccdm8QbT.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2b1.dir/'
+ as -v --64 -o CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o /tmp/ccdm8QbT.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_8b2b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2b1.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o -o cmTC_8b2b1 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b2b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b2b1.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cczN3x9O.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8b2b1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b2b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b2b1.'
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b2b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b2b1.dir/build.make CMakeFiles/cmTC_8b2b1.dir/build]
+  ignore line: [gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2b1.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8b2b1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccdm8QbT.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2b1.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o /tmp/ccdm8QbT.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_8b2b1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b2b1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o -o cmTC_8b2b1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b2b1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b2b1.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cczN3x9O.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8b2b1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczN3x9O.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8b2b1] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_8b2b1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0dbe6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0dbe6.dir/build.make CMakeFiles/cmTC_0dbe6.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0dbe6.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0dbe6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvmRWBD.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0dbe6.dir/'
+ as -v --64 -o CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvmRWBD.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_0dbe6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dbe6.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0dbe6 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0dbe6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0dbe6.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8opMMc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0dbe6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0dbe6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0dbe6.'
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0dbe6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0dbe6.dir/build.make CMakeFiles/cmTC_0dbe6.dir/build]
+  ignore line: [gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0dbe6.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0dbe6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvmRWBD.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0dbe6.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvmRWBD.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_0dbe6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dbe6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0dbe6 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0dbe6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0dbe6.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8opMMc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0dbe6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8opMMc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0dbe6] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_0dbe6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file GL/gl.h exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84cd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84cd4.dir/build.make CMakeFiles/cmTC_84cd4.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84cd4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_84cd4.dir/CheckIncludeFile.c.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_84cd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84cd4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_84cd4.dir/CheckIncludeFile.c.o -o cmTC_84cd4 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file istream exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6aff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6aff.dir/build.make CMakeFiles/cmTC_e6aff.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6aff.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_e6aff.dir/CheckIncludeFile.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e6aff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6aff.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_e6aff.dir/CheckIncludeFile.cxx.o -o cmTC_e6aff 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ostream exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57531/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57531.dir/build.make CMakeFiles/cmTC_57531.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57531.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_57531.dir/CheckIncludeFile.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_57531
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57531.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_57531.dir/CheckIncludeFile.cxx.o -o cmTC_57531 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fstream exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ee28/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ee28.dir/build.make CMakeFiles/cmTC_3ee28.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ee28.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_3ee28.dir/CheckIncludeFile.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_3ee28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ee28.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_3ee28.dir/CheckIncludeFile.cxx.o -o cmTC_3ee28 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sstream exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13733/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13733.dir/build.make CMakeFiles/cmTC_13733.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13733.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_13733.dir/CheckIncludeFile.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_13733
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13733.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_13733.dir/CheckIncludeFile.cxx.o -o cmTC_13733 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ios exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0222b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0222b.dir/build.make CMakeFiles/cmTC_0222b.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0222b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_0222b.dir/CheckIncludeFile.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0222b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0222b.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0222b.dir/CheckIncludeFile.cxx.o -o cmTC_0222b 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f3b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f3b2.dir/build.make CMakeFiles/cmTC_0f3b2.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f3b2.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_0f3b2.dir/CheckIncludeFile.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0f3b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f3b2.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0f3b2.dir/CheckIncludeFile.cxx.o -o cmTC_0f3b2 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file iomanip exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94858/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_94858.dir/build.make CMakeFiles/cmTC_94858.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94858.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_94858.dir/CheckIncludeFile.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_94858
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94858.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_94858.dir/CheckIncludeFile.cxx.o -o cmTC_94858 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_487cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_487cc.dir/build.make CMakeFiles/cmTC_487cc.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_487cc.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_487cc.dir/CheckIncludeFile.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_487cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_487cc.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_487cc.dir/CheckIncludeFile.cxx.o -o cmTC_487cc 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler has std namespace passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_733a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_733a5.dir/build.make CMakeFiles/cmTC_733a5.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_733a5.dir/TestForSTDNamespace.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_733a5.dir/TestForSTDNamespace.cxx.o -c /usr/share/cmake-3.22/Modules/TestForSTDNamespace.cxx
+Linking CXX executable cmTC_733a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_733a5.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_733a5.dir/TestForSTDNamespace.cxx.o -o cmTC_733a5 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test has_std_17_flag succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d8b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d8b8.dir/build.make CMakeFiles/cmTC_9d8b8.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d8b8.dir/src.cxx.o
+/usr/bin/c++ -Dhas_std_17_flag  -Wall -Wextra -Wno-write-strings     -std=c++17 -o CMakeFiles/cmTC_9d8b8.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d8b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d8b8.dir/link.txt --verbose=1
+/usr/bin/c++ -Wall -Wextra -Wno-write-strings   CMakeFiles/cmTC_9d8b8.dir/src.cxx.o -o cmTC_9d8b8 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_1z_flag succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a4d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a4d7.dir/build.make CMakeFiles/cmTC_5a4d7.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a4d7.dir/src.cxx.o
+/usr/bin/c++ -Dhas_std_1z_flag  -Wall -Wextra -Wno-write-strings     -std=c++1z -o CMakeFiles/cmTC_5a4d7.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5a4d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a4d7.dir/link.txt --verbose=1
+/usr/bin/c++ -Wall -Wextra -Wno-write-strings   CMakeFiles/cmTC_5a4d7.dir/src.cxx.o -o cmTC_5a4d7 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_82ee5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_82ee5.dir/build.make CMakeFiles/cmTC_82ee5.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82ee5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_82ee5.dir/CheckIncludeFile.c.o -c /app/freecad-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82ee5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82ee5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_82ee5.dir/CheckIncludeFile.c.o -o cmTC_82ee5 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_956e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_956e5.dir/build.make CMakeFiles/cmTC_956e5.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_956e5.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_956e5.dir/src.c.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_956e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_956e5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_956e5.dir/src.c.o -o cmTC_956e5 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81eb1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81eb1.dir/build.make CMakeFiles/cmTC_81eb1.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81eb1.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_81eb1.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81eb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81eb1.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_81eb1.dir/src.cxx.o -o cmTC_81eb1 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4fa7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4fa7.dir/build.make CMakeFiles/cmTC_c4fa7.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4fa7.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_c4fa7.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c4fa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4fa7.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_c4fa7.dir/src.cxx.o -o cmTC_c4fa7 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ed0f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ed0f.dir/build.make CMakeFiles/cmTC_9ed0f.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ed0f.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_9ed0f.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9ed0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ed0f.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_9ed0f.dir/src.cxx.o -o cmTC_9ed0f 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f444/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f444.dir/build.make CMakeFiles/cmTC_2f444.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f444.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_2f444.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2f444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f444.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_2f444.dir/src.cxx.o -o cmTC_2f444 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_34d04/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_34d04.dir/build.make CMakeFiles/cmTC_34d04.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34d04.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wall -Wextra -Wno-write-strings     -fvisibility=hidden -o CMakeFiles/cmTC_34d04.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_34d04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34d04.dir/link.txt --verbose=1
+/usr/bin/c++ -Wall -Wextra -Wno-write-strings   CMakeFiles/cmTC_34d04.dir/src.cxx.o -o cmTC_34d04 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5dc0a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5dc0a.dir/build.make CMakeFiles/cmTC_5dc0a.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5dc0a.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wall -Wextra -Wno-write-strings     -fvisibility-inlines-hidden -o CMakeFiles/cmTC_5dc0a.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5dc0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dc0a.dir/link.txt --verbose=1
+/usr/bin/c++ -Wall -Wextra -Wno-write-strings   CMakeFiles/cmTC_5dc0a.dir/src.cxx.o -o cmTC_5dc0a 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_24039/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24039.dir/build.make CMakeFiles/cmTC_24039.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_24039.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wall -Wextra -Wno-write-strings   -o CMakeFiles/cmTC_24039.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+/app/freecad-build/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/app/freecad-build/CMakeFiles/CMakeTmp/src.cxx:2:33: warning: 'int somefunc()' is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                         ~~~~~~~~^~
+/app/freecad-build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_24039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24039.dir/link.txt --verbose=1
+/usr/bin/c++ -Wall -Wextra -Wno-write-strings   CMakeFiles/cmTC_24039.dir/src.cxx.o -o cmTC_24039 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6cae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6cae.dir/build.make CMakeFiles/cmTC_b6cae.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6cae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_b6cae.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6cae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6cae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_b6cae.dir/CheckFunctionExists.c.o -o cmTC_b6cae  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57164/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57164.dir/build.make CMakeFiles/cmTC_57164.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57164.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_57164.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57164
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57164.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_57164.dir/CheckFunctionExists.c.o -o cmTC_57164 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4d663/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4d663.dir/build.make CMakeFiles/cmTC_4d663.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d663.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_4d663.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d663
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d663.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_4d663.dir/CheckFunctionExists.c.o -o cmTC_4d663 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_42327/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42327.dir/build.make CMakeFiles/cmTC_42327.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42327.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_42327.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_42327
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42327.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_42327.dir/CheckFunctionExists.c.o -o cmTC_42327 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00c03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00c03.dir/build.make CMakeFiles/cmTC_00c03.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00c03.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_00c03.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00c03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00c03.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_00c03.dir/CheckFunctionExists.c.o -o cmTC_00c03 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21a91/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21a91.dir/build.make CMakeFiles/cmTC_21a91.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21a91.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_21a91.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21a91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21a91.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_21a91.dir/CheckFunctionExists.c.o -o cmTC_21a91  -lICE 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_604f8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_604f8.dir/build.make CMakeFiles/cmTC_604f8.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_604f8.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_604f8.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_604f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_604f8.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_604f8.dir/src.cxx.o -o cmTC_604f8 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ddc2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ddc2.dir/build.make CMakeFiles/cmTC_4ddc2.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ddc2.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_4ddc2.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4ddc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ddc2.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_4ddc2.dir/src.cxx.o -o cmTC_4ddc2 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c755f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c755f.dir/build.make CMakeFiles/cmTC_c755f.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c755f.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_c755f.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c755f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c755f.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_c755f.dir/src.cxx.o -o cmTC_c755f 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_51aca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51aca.dir/build.make CMakeFiles/cmTC_51aca.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51aca.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_51aca.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_51aca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51aca.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_51aca.dir/src.cxx.o -o cmTC_51aca 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_78506/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_78506.dir/build.make CMakeFiles/cmTC_78506.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78506.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_78506.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_78506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78506.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_78506.dir/src.cxx.o -o cmTC_78506 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6fede/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6fede.dir/build.make CMakeFiles/cmTC_6fede.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6fede.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_6fede.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6fede
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fede.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_6fede.dir/src.cxx.o -o cmTC_6fede 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f034a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f034a.dir/build.make CMakeFiles/cmTC_f034a.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f034a.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_f034a.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f034a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f034a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_f034a.dir/src.cxx.o -o cmTC_f034a 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c6980/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6980.dir/build.make CMakeFiles/cmTC_c6980.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6980.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_c6980.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c6980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6980.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_c6980.dir/src.cxx.o -o cmTC_c6980 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8cfd0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8cfd0.dir/build.make CMakeFiles/cmTC_8cfd0.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8cfd0.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_8cfd0.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8cfd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cfd0.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_8cfd0.dir/src.cxx.o -o cmTC_8cfd0 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77340/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77340.dir/build.make CMakeFiles/cmTC_77340.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77340.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_77340.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_77340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77340.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_77340.dir/src.cxx.o -o cmTC_77340 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e2dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e2dc.dir/build.make CMakeFiles/cmTC_5e2dc.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e2dc.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_5e2dc.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5e2dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e2dc.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_5e2dc.dir/src.cxx.o -o cmTC_5e2dc 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa485/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa485.dir/build.make CMakeFiles/cmTC_fa485.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa485.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_fa485.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fa485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa485.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_fa485.dir/src.cxx.o -o cmTC_fa485 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0f94/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0f94.dir/build.make CMakeFiles/cmTC_e0f94.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0f94.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_e0f94.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e0f94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f94.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_e0f94.dir/src.cxx.o -o cmTC_e0f94 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91e68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91e68.dir/build.make CMakeFiles/cmTC_91e68.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91e68.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_91e68.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_91e68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91e68.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_91e68.dir/src.cxx.o -o cmTC_91e68 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ebb27/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ebb27.dir/build.make CMakeFiles/cmTC_ebb27.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ebb27.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_ebb27.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ebb27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebb27.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_ebb27.dir/src.cxx.o -o cmTC_ebb27 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8f7a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8f7a.dir/build.make CMakeFiles/cmTC_b8f7a.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8f7a.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_b8f7a.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8f7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8f7a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_b8f7a.dir/src.cxx.o -o cmTC_b8f7a 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64ca4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64ca4.dir/build.make CMakeFiles/cmTC_64ca4.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64ca4.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_64ca4.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_64ca4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64ca4.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_64ca4.dir/src.cxx.o -o cmTC_64ca4 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6fa5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6fa5.dir/build.make CMakeFiles/cmTC_f6fa5.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6fa5.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_f6fa5.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f6fa5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6fa5.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_f6fa5.dir/src.cxx.o -o cmTC_f6fa5 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c70b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c70b5.dir/build.make CMakeFiles/cmTC_c70b5.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c70b5.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_c70b5.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c70b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c70b5.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_c70b5.dir/src.cxx.o -o cmTC_c70b5 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8efde/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8efde.dir/build.make CMakeFiles/cmTC_8efde.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8efde.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_8efde.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8efde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8efde.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_8efde.dir/src.cxx.o -o cmTC_8efde 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e736e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e736e.dir/build.make CMakeFiles/cmTC_e736e.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e736e.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_e736e.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e736e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e736e.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_e736e.dir/src.cxx.o -o cmTC_e736e 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a2a7a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2a7a.dir/build.make CMakeFiles/cmTC_a2a7a.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2a7a.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_a2a7a.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a2a7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2a7a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_a2a7a.dir/src.cxx.o -o cmTC_a2a7a 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a87a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a87a.dir/build.make CMakeFiles/cmTC_0a87a.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a87a.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_0a87a.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0a87a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a87a.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_0a87a.dir/src.cxx.o -o cmTC_0a87a 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb470/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb470.dir/build.make CMakeFiles/cmTC_bb470.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb470.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_bb470.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bb470
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb470.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_bb470.dir/src.cxx.o -o cmTC_bb470 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ef3e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ef3e.dir/build.make CMakeFiles/cmTC_9ef3e.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ef3e.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_9ef3e.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9ef3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ef3e.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_9ef3e.dir/src.cxx.o -o cmTC_9ef3e 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b9ec1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b9ec1.dir/build.make CMakeFiles/cmTC_b9ec1.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9ec1.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_b9ec1.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b9ec1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ec1.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_b9ec1.dir/src.cxx.o -o cmTC_b9ec1 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fa14/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fa14.dir/build.make CMakeFiles/cmTC_4fa14.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fa14.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_4fa14.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4fa14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa14.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_4fa14.dir/src.cxx.o -o cmTC_4fa14 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0dbaa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0dbaa.dir/build.make CMakeFiles/cmTC_0dbaa.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0dbaa.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_0dbaa.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0dbaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dbaa.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_0dbaa.dir/src.cxx.o -o cmTC_0dbaa 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2ea12/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ea12.dir/build.make CMakeFiles/cmTC_2ea12.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ea12.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic    -Wno-unused-result -o CMakeFiles/cmTC_2ea12.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2ea12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea12.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic  CMakeFiles/cmTC_2ea12.dir/src.cxx.o -o cmTC_2ea12 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8af83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8af83.dir/build.make CMakeFiles/cmTC_8af83.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8af83.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result    -Wno-cast-function-type -o CMakeFiles/cmTC_8af83.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8af83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8af83.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result  CMakeFiles/cmTC_8af83.dir/src.cxx.o -o cmTC_8af83 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1519/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b1519.dir/build.make CMakeFiles/cmTC_b1519.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1519.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_b1519.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b1519
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1519.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type  CMakeFiles/cmTC_b1519.dir/src.cxx.o -o cmTC_b1519 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test _flag_found succeeded with the following output:
+Change Dir: /app/freecad-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_790fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_790fc.dir/build.make CMakeFiles/cmTC_790fc.dir/build
+gmake[1]: Entering directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_790fc.dir/src.cxx.o
+/usr/bin/c++ -D_flag_found  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized    -Wno-missing-field-initializers -o CMakeFiles/cmTC_790fc.dir/src.cxx.o -c /app/freecad-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_790fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_790fc.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-write-strings  -Wno-sign-compare -Wno-reorder -Wno-switch -Wno-unused-variable -Wno-unused-but-set-variable -Wno-comment -Wno-unused-parameter -Wno-empty-body -Wno-pedantic -Wno-unused-result -Wno-cast-function-type -Wno-maybe-uninitialized  CMakeFiles/cmTC_790fc.dir/src.cxx.o -o cmTC_790fc 
+gmake[1]: Leaving directory '/app/freecad-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
